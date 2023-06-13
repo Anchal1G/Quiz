@@ -79,3 +79,16 @@ input{
 .scoreArea{
     display: none;
 }
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 5px
+}
