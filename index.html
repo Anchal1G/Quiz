@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header"><h1>Quizzr</h1></header>
     <div class="main-div">
-        <div class="inner-div">
-            <h2 class="questions">Questions to be here</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="ans1" class="answer">
-                    <label for="ans1" id="option1">Answer Options</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="ans2" class="answer">
-                    <label for="ans2" id="option2">Answer Options</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="ans3" class="answer">
-                    <label for="ans3" id="option3">Answer Options</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="ans4" class="answer">
-                    <label for="ans4" id="option4">Answer Options</label>
-                </li>
-            </ul>
-            <button id="submit">Submit</button>
+      <div class="inner-div">
+        <h2 class="questions">Questions to be here</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="ans1" class="answer" />
+            <label for="ans1" id="option1">Answer Options</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans2" class="answer" />
+            <label for="ans2" id="option2">Answer Options</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans3" class="answer" />
+            <label for="ans3" id="option3">Answer Options</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans4" class="answer" />
+            <label for="ans4" id="option4">Answer Options</label>
+          </li>
+        </ul>
+        <button id="submit">Submit</button>
 
-            <div id="showScore" class="scoreArea"></div>
-        </div>
+        <div id="showScore" class="scoreArea"></div>
+      </div>
     </div>
+    <footer class="footer">
+        <div>
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/anchal-gupta-83342120b"
+        ><img
+          src="images/linkedin.gif"
+          height="40"
+          width="40"
+          alt="linked-logo"
+        />
+        LinkedIn</a
+      >
+      <a class="footer-link" href="mailto:anchalrp0412@gmail.com"
+        ><img src="images/gmail.png" height="25" width="32" alt="gmail-logo" />
+        Gmail</a
+      >
+      <a class="footer-link" href="https://github.com/Anchal1G"
+        ><img
+          src="images/github.gif"
+          height="35"
+          width="35"
+          alt="github-logo"
+        />
+        Github</a
+      >
+      <p class="copyright">Made with ❤️ by Anchal Gupta © 2023</p>
+      </div>
+    </footer>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
